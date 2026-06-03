@@ -1,0 +1,19 @@
+{
+  "name": "ping-api",
+  "version": "1.0.0",
+  "description": "Simple API that returns request headers in JSON format",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc",
+    "dev": "ts-node main.ts"
+  },
+  "keywords": ["api", "ping", "headers"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
